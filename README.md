@@ -1,0 +1,2 @@
+# Trivia
+PyQt5 
