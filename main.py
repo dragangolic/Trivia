@@ -17,7 +17,7 @@ widgets = {
 
 app = QApplication(sys.argv)
 window = QWidget()
-window.setWindowTitle("Fenix Programmers!")
+window.setWindowTitle("Young Programmers!")
 window.setFixedWidth(1800)
 window.move(50, 0)
 window.setStyleSheet("background: #00CCFF;")
@@ -143,8 +143,6 @@ def frame2():
     grid.addWidget(widgets["answer4"][-1], 3, 1)
     grid.addWidget(widgets['logo'][-1], 4, 0, 1, 2)
 
-
-#frame2()
 window.setLayout(grid)
 
 window.show()
